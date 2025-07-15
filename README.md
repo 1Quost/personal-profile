@@ -24,7 +24,8 @@ This page is static and not meant to be fully functional.
 
 ## 📷 Screenshot
 
-<img width="828" height="859" alt="image" src="https://github.com/user-attachments/assets/88f768a5-2955-4d6d-9bee-2d6135fa5dbe" />
+<img width="830" height="883" alt="image" src="https://github.com/user-attachments/assets/2fabd05e-9ee7-4bd4-880d-d3757bfa6476" />
+
 
 
 
