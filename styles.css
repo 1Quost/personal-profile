@@ -1,0 +1,194 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 10px auto 0 auto ;
+    padding: 0;
+    width: 80%;
+}
+
+h1{
+    color:black;
+    font-weight:600;
+    font-size: medium;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.top{
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgba(180, 204, 210, 0.18);
+}
+
+
+.form-row .form-group:first-child { 
+    flex: 1;
+}
+.form-row .form-group:last-child {
+    flex: 2;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+nav{
+    display: flex;
+    gap: 15px;
+    padding-left: 25px;
+}
+
+.intro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    background-color: rgb(251 191 200 / 17%);
+}
+
+.profile-pic{
+    margin: 20px 25px 0 25px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+
+
+button{
+    background-color: #5656cf;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+button:hover,
+button[type="submit"]:hover {
+    background-color: #4343a0; /* darker shade of original purple */
+    color: white;
+    transform: scale(1.05);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+
+.widthbtn{
+    width: 40%;
+}
+
+
+h2{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 30px !important;
+}
+
+.alignment{
+    text-align: left;
+    width: 100%;
+}
+.project{
+    margin-top: 50px;
+}
+
+.project-list{
+    padding: 0;
+    display: flex;
+}
+article{
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    border-radius: 20px;
+    padding: 15px;
+    margin: 10px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+article button {
+    margin-top: auto;
+}
+
+label{
+    color: #333 ;
+    font-weight: 500;
+    margin-bottom: 6px;
+    font-size: large;
+}
+
+form {
+    padding: 30px 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.contact {
+    padding: 20px;
+    background-color: rgb(251 191 200 / 23%);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.form-row {
+    display: flex;
+    gap: 16px;
+}
+
+.form-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+form input,
+form textarea,
+form select {
+    margin-bottom: 12px;
+}
+
+form label {
+    margin-top: 8px;
+}
+
+input, textarea, select {
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+    background: #f9f9f9;
+    transition: border-color 0.2s;
+}
+
+textarea {
+    resize: none;
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: #5656cf;
+    outline: none;
+}
+
+button[type="submit"] {
+    background-color: #5656cf;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    width: auto;
+    align-self: flex-start;
+}
+
+footer{
+    text-align: center;
+    color: #333;
+}
+
